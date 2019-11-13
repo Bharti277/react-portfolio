@@ -1,0 +1,28 @@
+table, th, td {
+ 	
+        border: 1px solid black;
+        text-align:center;
+	
+}
+table {
+ 	border-collapse:collapse;
+	width:100%
+}
+ th {
+ 	  height:50px;
+ }
+ 
+ #p01 {
+ 	   font-size: 50px;  
+ }
+ .container {
+ background: #45426a;
+ width:100%;
+ height:100%;
+ }
+ .format {
+ style="width:100%; 
+ color:lightblue; 
+ font-size: 25px;
+ }
+ 	    
