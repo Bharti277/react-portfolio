@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBootstrap } from 'react-icons/fa'
+// import { FaBootstrap } from 'react-icons/fa'
 import resume from '../assets/deependra-resume.pdf';
 import "./About.css";
 
@@ -22,7 +22,7 @@ const About = () => {
         <img className='m-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="35" height="35"/>
         <img className='m-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="35" height="35"/>
         <img className='m-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="sass" width="35" height="35"/>
-        <FaBootstrap className='m-2' style={{width:"35", height:"35", color: '#7a14f5'}}/>
+        {/* <FaBootstrap className='m-2' style={{width:"35", height:"35", color: '#7a14f5'}}/> */}
         <img className='ms-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" width="30" height="35"/>
       </p>
     </div>

@@ -3,12 +3,11 @@ import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
+import './App.css';
 
 function App() {
- 
-   return(
-     <>
+  return (
+    <>
      <BrowserRouter>
       <Routes>
         <Route path='/' element={<SharedLayout />}>
@@ -19,9 +18,7 @@ function App() {
       </Routes>
      </BrowserRouter>
      </>
-  )
- 
-   
+  );
 }
 
 export default App;
