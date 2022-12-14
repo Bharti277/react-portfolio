@@ -2,6 +2,7 @@
     background: lightblue;
     padding: 5px;
     min-height: 100vh;
+    display: flex
 };
 .home_container .home_content{
     display: flex;
