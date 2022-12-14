@@ -8,12 +8,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* d-sm-flex align-items-center justify-content-between */
 }
 .home_container .left_content{
     display: flex;
     flex-direction: column;
-    /* ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start */
 }
 .home_container .btn{
     background-color: red;
