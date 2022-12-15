@@ -1,17 +1,12 @@
 .home_container{
-    background: lightblue;
+    background: #fff;
     padding: 5px;
     min-height: 100vh;
-    display: flex
-};
-.home_container .home_content{
+}
+ .home_content{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.home_container .left_content{
-    display: flex;
-    flex-direction: column;
 }
 .home_container .btn{
     background-color: red;

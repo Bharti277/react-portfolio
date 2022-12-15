@@ -6,7 +6,6 @@ import "./Home.css";
 const Home = () => {
   return (
     <section className="home_container">
-      <div className='container-fluid'>
        <div className='home_content'>
           <div className='left_content'>
             <h1 className='text'>Hi, I'm Deependra</h1>
@@ -24,7 +23,6 @@ const Home = () => {
               style={{ maxHeight: '700px', maxWidth: '700px' }}
             />
           </div>
-        </div>
       </div>
     </section>
   )

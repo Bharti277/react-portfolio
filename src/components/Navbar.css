@@ -1,9 +1,12 @@
 .navbar_container{
     background: #fff;
     padding: 4px;
+    position: static;
+    top: 4rem;
 }
 .navbar_container .navbar_content{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .navbar_container .navbar_content .navbar_logo{
