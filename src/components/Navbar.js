@@ -19,7 +19,7 @@ function ResponsiveAppBar() {
          <Box>
          <Typography
           >
-            LOGO
+            deependra
           </Typography>
          </Box>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>

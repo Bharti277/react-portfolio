@@ -1,4 +1,4 @@
-import SharedLayout from './components/SharedLayout';
+import CommonComponent from './components/CommonComponent';
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -10,7 +10,7 @@ function App() {
     <>
      <BrowserRouter>
       <Routes>
-        <Route path='/' element={<SharedLayout />}>
+        <Route path='/' element={<CommonComponent />}>
           <Route index element={<Home />} />
           <Route path='about' element={<About/>} />
           <Route path='projects' element={<Projects />} />
