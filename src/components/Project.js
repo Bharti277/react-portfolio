@@ -1,6 +1,4 @@
 import React from 'react'
-// import { AiOutlineGithub } from 'react-icons/ai'
-// import { BiLinkExternal } from 'react-icons/bi';
 import "./Project.css"
  
 function Project({id, image, name, stack, live, source, desc}) {
@@ -18,12 +16,12 @@ function Project({id, image, name, stack, live, source, desc}) {
                     <div className="mt-5 align-text-bottom">
                         <p className="card-text">{stack}</p>
                             <p className="card-text d-flex gap-4">
-                                {/* <a href={live} target="_blank" rel="noreferrer" className='link'>
-                                    Live Site <BiLinkExternal style={{color: 'hsl(205, 72%, 37%)'}}/>
+                                <a href={live} target="_blank" rel="noreferrer" className='link'>
+                                    Live Site 
                                 </a>
                                 <a href={source} target="_blank" rel="noreferrer" className='link'>
-                                    Source Code <AiOutlineGithub style={{color: 'hsl(205, 72%, 37%)'}} />
-                                </a>     */}
+                                    Source Code 
+                                </a>    
                             </p>
                     </div>
                 </div>
