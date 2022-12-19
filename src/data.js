@@ -1,31 +1,36 @@
- 
- 
-const ProjectsData = [
+ const projectsData = [
    
   {
-    id: "rest-countries",
-    img: "",
-    name: "Color Flipper",
+    id: "order-catalogue",
+    img: "fdfd",
+    name: "Catalogue",
     stack: ["< RESTful API />", "< Material Ui />", "< React.js />"],
-    live: "",
-    source: "https://github.com/Bharti277/Simple-Calculator",
+    live: "https://bharti277.github.io/order-catalogue/",
+    source: "https://github.com/Bharti277/order-catalogue",
     description:  
-        "",
+        "Order catalgue is a e-commerce cart website in which user can add items to cart.",
   },
-];
-
-const InprogressProjectsData = [
   {
-    id: "servista",
-    img: "",
-    name: "Servista",
-    stack: ["< Flutter />", "< NodeJS />", "< Blockchain />"],
-    live: "",
-    source: "https://github.com/rimshub/servista",
+    id: "1",
+    img: "fdfd",
+    name: "Catalogue",
+    stack: ["< RESTful API />", "< Material Ui />", "< React.js />"],
+    live: "https://bharti277.github.io/order-catalogue/",
+    source: "https://github.com/Bharti277/order-catalogue",
     description:  
-        "A cross-platform app that connects local service providers with customers. The goal is to maximize the income of local professionals while ensuring the security and comfort of customers",
+        "Order catalgue is a e-commerce cart website in which user can add items to cart.",
   },
-
+  {
+    id: "2",
+    img: "fdfd",
+    name: "Catalogue",
+    stack: ["< RESTful API />", "< Material Ui />", "< React.js />"],
+    live: "https://bharti277.github.io/order-catalogue/",
+    source: "https://github.com/Bharti277/order-catalogue",
+    description:  
+        "Order catalgue is a e-commerce cart website in which user can add items to cart.",
+  },
 ];
 
-export default {ProjectsData, InprogressProjectsData}
+
+export default projectsData
