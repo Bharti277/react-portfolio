@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 .home_container .btn{
-    background-color: #ccc;
+    background-color: rgb(224, 124, 124);
     padding: 0.6rem 1rem;
     cursor: pointer;
     border: 2px solid rgb(23, 22, 22);
