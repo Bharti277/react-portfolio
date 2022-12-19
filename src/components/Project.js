@@ -1,10 +1,11 @@
 import React from 'react'
 // import { AiOutlineGithub } from 'react-icons/ai'
-// import { BiLinkExternal } from 'react-icons/bi'
+// import { BiLinkExternal } from 'react-icons/bi';
+import "./Project.css"
  
 function Project({id, image, name, stack, live, source, desc}) {
   return (
-    <div className="">
+    <div className="project_container">
         <div className="card mb-5" style={{maxWidth:'900px'}}>
         <div className="g-0 d-flex flex-column flex-lg-row align-items-center ">
             <div className="">

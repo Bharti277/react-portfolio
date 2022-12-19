@@ -1,7 +1,6 @@
 .navbar_container{
     background: #fff;
-    padding: 4px;
-    position: static;
+    position: fixed;
     top: 4rem;
 }
 .navbar_container .navbar_content{

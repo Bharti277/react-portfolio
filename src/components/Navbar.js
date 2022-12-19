@@ -5,6 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { NavLink } from 'react-router-dom'
+import "./Navbar.css"
 
 
 function ResponsiveAppBar() {
@@ -12,7 +13,7 @@ function ResponsiveAppBar() {
  
 
   return (
-    <AppBar position="static">
+    <AppBar className='navbar_container'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
          <Box>
