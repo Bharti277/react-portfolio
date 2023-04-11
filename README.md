@@ -1,6 +1,6 @@
 # React Portfolio
 
-    Changing website with React/Redux and materialUI from React with CSS
+    Work in progress for my new portfolio design
 
 ### Used Technology
  - HTML
