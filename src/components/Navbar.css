@@ -1,15 +1,17 @@
-.navbar_container{
-    background: rgb(4, 3, 15) !important;
-    position: fixed;
-    top: 4rem;
-    width: 100%;
+.navbar_container {
+  background: rgb(4, 3, 15) !important;
+  position: fixed;
+  top: 4rem;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
 }
-.navbar_container .navbar_content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar_container .navbar_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar_container .navbar_content .navbar_logo{
-    margin-bottom: 4px;
-    padding: 4px;
+.navbar_container .navbar_content .navbar_logo {
+  margin-bottom: 4px;
+  padding: 4px;
 }
