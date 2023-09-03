@@ -5,6 +5,10 @@
   width: 100%;
   display: flex;
   padding: 1rem;
+  z-index: 1000;
+}
+.navbar_container a button {
+  padding: 0.4rem;
 }
 .navbar_container .navbar_content {
   display: flex;
@@ -14,4 +18,14 @@
 .navbar_container .navbar_content .navbar_logo {
   margin-bottom: 4px;
   padding: 4px;
+}
+.navbar_container .navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto !important;
+}
+.navbar_container .navlinks a button {
+  padding: 0.4rem;
+  margin-left: 20px;
 }
