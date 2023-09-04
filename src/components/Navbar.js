@@ -23,7 +23,7 @@ function ResponsiveAppBar() {
         <NavLink to="#">
           <button className="btn">Skills</button>
         </NavLink>
-        <NavLink to="#">
+        <NavLink to="/Contact">
           <button className="btn">Contact</button>
         </NavLink>
       </div>
