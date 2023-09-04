@@ -28,4 +28,5 @@
 .navbar_container .navlinks a button {
   padding: 0.4rem;
   margin-left: 20px;
+  cursor: pointer;
 }

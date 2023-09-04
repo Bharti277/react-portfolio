@@ -4,6 +4,7 @@
 }
 .about_container .context {
   font-size: 24px;
+  padding-top: 8rem;
 }
 .about_container .btn {
   background: red;
