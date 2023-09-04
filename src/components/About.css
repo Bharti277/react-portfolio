@@ -1,10 +1,10 @@
-.about_container{
-    text-align: center;
-    margin-top: 8rem;
+.about_container {
+  text-align: center;
+  /* margin-top: 8rem; */
 }
-.about_container .context{
-    font-size: 24px;
+.about_container .context {
+  font-size: 24px;
 }
-.about_container .btn{
-    background: red;
+.about_container .btn {
+  background: red;
 }
