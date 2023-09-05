@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
+  console.log(process.env);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -10,10 +11,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        process.env.YOUR_SERVICE_ID,
-        process.env.YOUR_TEMPLATE_ID,
+        process.env.REACT_APP_API_SERVICE_ID,
+        process.env.REACT_APP_API_TEMPLATE_ID,
         form.current,
-        process.env.YOUR_PUBLIC_KEY
+        process.env.REACT_APP_API_PUBLIC_KEY
       )
       .then(
         (result) => {
