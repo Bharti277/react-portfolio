@@ -11,3 +11,12 @@
 .contact_container .contact_form form {
   margin: 0 auto !important;
 }
+.contact_container .contact_form .contact_info {
+  /* background-color: red; */
+  padding: 0.4rem 0;
+}
+.contact_container .contact_form .contact_info label:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

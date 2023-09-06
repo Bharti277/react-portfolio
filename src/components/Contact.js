@@ -33,17 +33,19 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail} className="form">
           <p>Leave your message here!</p>
 
-          <div>
+          <div className="contact_info">
             <label>Name</label>
             <input type="text" name="user_name" />
           </div>
-          <div>
+          <div className="contact_info">
             <label>Email</label>
             <input type="email" name="user_email" />
           </div>
-          <div>
+          <div className="contact_info">
             <label>Message</label>
             <textarea name="message" />
+          </div>
+          <div className="contact_info">
             <input type="submit" value="Send" />
           </div>
         </form>
