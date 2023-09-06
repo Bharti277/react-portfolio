@@ -8,15 +8,28 @@
 .contact_container .contact_form {
   margin: 0 auto !important;
 }
+.contact_container .contact_form .msg {
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
 .contact_container .contact_form form {
   margin: 0 auto !important;
 }
 .contact_container .contact_form .contact_info {
-  /* background-color: red; */
   padding: 0.4rem 0;
+}
+.contact_container .contact_form .contact_info label {
+  font-size: 16px;
+  margin-bottom: 4px;
 }
 .contact_container .contact_form .contact_info label:first-of-type {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.contact_container .contact_form .contact_info .submit {
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 800;
 }

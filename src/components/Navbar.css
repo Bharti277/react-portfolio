@@ -7,6 +7,11 @@
   padding: 1rem;
   z-index: 1000;
 }
+.navbar_container .logo .btn {
+  cursor: pointer;
+  background-color: aqua;
+  border-radius: 4px;
+}
 .navbar_container a button {
   padding: 0.4rem;
 }

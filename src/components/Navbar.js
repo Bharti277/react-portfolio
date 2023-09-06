@@ -7,7 +7,7 @@ function ResponsiveAppBar() {
     <div className="navbar_container">
       <div className="logo">
         <NavLink to="/">
-          <button className="btn">Logo</button>
+          <button className="btn">Deependra</button>
         </NavLink>
       </div>
       <div className="navlinks">
@@ -20,18 +20,10 @@ function ResponsiveAppBar() {
         <NavLink to="/Projects">
           <button className="btn">Work</button>
         </NavLink>
-        <NavLink to="#">
-          <button className="btn">Skills</button>
-        </NavLink>
         <NavLink to="/Contact">
           <button className="btn">Contact</button>
         </NavLink>
       </div>
-      {/* <div className="contact">
-        <NavLink to="#">
-          <button className="btn">Contact</button>
-        </NavLink>
-      </div> */}
     </div>
   );
 }
