@@ -1,3 +1,13 @@
 .contact_container {
   padding-top: 8rem;
 }
+.contact_container .contact_form {
+  display: flex;
+  flex-direction: column;
+}
+.contact_container .contact_form {
+  margin: 0 auto !important;
+}
+.contact_container .contact_form form {
+  margin: 0 auto !important;
+}
