@@ -6,7 +6,7 @@ function Project({ id, image, name, stack, live, source, desc }) {
     <div className="project_container">
       <div className="card" style={{ maxWidth: "450px" }}>
         <div className="">
-          <div className="">
+          <div className="card__image">
             <img src={image} className="" alt={name} />
           </div>
           <div className="">

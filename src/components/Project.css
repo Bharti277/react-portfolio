@@ -22,3 +22,7 @@
 .card-text:last-of-type a:first-of-type {
   margin-right: 1rem;
 }
+.card__image img {
+  width: 200px;
+  height: 200px;
+}
