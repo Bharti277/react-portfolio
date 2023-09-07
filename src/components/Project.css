@@ -16,3 +16,9 @@
   margin-bottom: 1rem;
   font-weight: 800;
 }
+.card-text {
+  padding-top: 1rem;
+}
+.card-text:last-of-type a:first-of-type {
+  margin-right: 1rem;
+}
