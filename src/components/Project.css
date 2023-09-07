@@ -1,4 +1,18 @@
 .project_container {
   /* margin-top: 8rem; */
-  padding-top: 8rem;
+  padding-top: 1rem;
+}
+.project_container .card {
+  border: 2px solid rgb(4, 3, 15);
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+}
+.card-body {
+  margin-top: 1rem;
+}
+.card-title {
+  font-size: 22px;
+  margin-bottom: 1rem;
+  font-weight: 800;
 }
