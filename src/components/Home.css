@@ -1,12 +1,12 @@
 .home_container {
   background: #fff;
   padding: 5px;
-  /* margin-top: 8rem; */
 }
 .home_content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 90vh;
 }
 .home_container .btn {
   background-color: rgb(224, 124, 124);
