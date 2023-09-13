@@ -35,8 +35,13 @@
   margin-left: 20px;
   cursor: pointer;
 }
-@media only screen and (max-width: 692px) {
+@media only screen and (max-width: 992px) {
   .navbar_container {
     background: red;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navlinks {
+    display: none !important;
   }
 }

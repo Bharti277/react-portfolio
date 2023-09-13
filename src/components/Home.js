@@ -2,8 +2,11 @@ import React from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { NavLink } from "react-router-dom";
 import "./Home.css";
+import moment from "moment";
 
 const Home = () => {
+  const date = moment().format("MMMM Do YYYY, h:mm:ss a");
+  console.log(date);
   return (
     <section className="home_container">
       <div className="home_content">
