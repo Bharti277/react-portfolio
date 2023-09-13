@@ -9,7 +9,7 @@
 }
 .navbar_container .logo .btn {
   cursor: pointer;
-  background-color: aqua;
+  background-color: rgb(188, 149, 86);
   border-radius: 4px;
 }
 .navbar_container a button {
