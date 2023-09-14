@@ -44,4 +44,15 @@
   .navlinks {
     display: none !important;
   }
+  .mobile-navlinks {
+    background-color: #fff;
+    height: 20rem;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all 2s linear;
+    position: relative;
+    z-index: 1000;
+  }
 }
