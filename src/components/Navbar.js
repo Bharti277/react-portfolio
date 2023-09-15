@@ -17,7 +17,7 @@ function ResponsiveAppBar() {
           <button className="btn">Deependra</button>
         </NavLink>
       </div>
-      <div className={showMediaIcons ? "navlinks mobile-navlinks" : "navlinks"}>
+      <div className={showMediaIcons ? "mobile-navlinks" : "navlinks"}>
         <NavLink to="/">
           <button className="btn">Home</button>
         </NavLink>
