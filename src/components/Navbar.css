@@ -53,11 +53,11 @@
   }
   .mobile-navlinks {
     background-color: #fff;
-    height: 20rem;
+    height: 100vh;
     display: grid;
-    grid-column: 2/5;
+    grid-column: 4/5;
     align-items: center;
-    padding-left: 3rem;
+    width: 100%;
     transition: all 2s linear;
     position: relative;
     z-index: 1000;
