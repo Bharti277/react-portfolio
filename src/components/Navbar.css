@@ -35,6 +35,9 @@
   margin-left: 20px;
   cursor: pointer;
 }
+.bars {
+  display: none;
+}
 @media only screen and (max-width: 992px) {
   .navbar_container {
     display: flex;
@@ -48,7 +51,8 @@
     margin-left: auto !important;
   }
   .bars {
-    color: white;
+    display: block;
+    /* color: white; */
   }
   .navlinks {
     display: none !important;
