@@ -14,7 +14,7 @@ const Home = () => {
           <h1 className="text">Hi, I'm Deependra</h1>
           <h1 className="text">Frontend Developer.</h1>
           <p className="profession">
-            Frontend Development / ReactJS / Web Designing
+            Frontend Development / ReactJS / Web Development
           </p>
           <NavLink to="/projects">
             <button className="btn">My Work</button>
