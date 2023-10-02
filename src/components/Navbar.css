@@ -1,7 +1,6 @@
 .navbar_container {
   background: rgb(4, 3, 15);
   position: fixed;
-  /* top: 4rem; */
   width: 100%;
   display: flex;
   padding: 1rem;
@@ -52,7 +51,6 @@
   }
   .bars {
     display: block;
-    /* color: white; */
   }
   .navlinks {
     display: none !important;

@@ -9,7 +9,7 @@
   height: 90vh;
 }
 .home_container .btn {
-  background-color: rgb(187, 126, 126);
+  background-color: rgb(187, 126, 126); 
   padding: 0.6rem 1rem;
   cursor: pointer;
   border: 2px solid rgb(23, 22, 22);
