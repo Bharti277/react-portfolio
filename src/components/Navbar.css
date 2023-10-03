@@ -5,6 +5,7 @@
   display: flex;
   padding: 1rem;
   z-index: 1000;
+  justify-content: space-between;
 }
 .navbar_container .logo .btn {
   cursor: pointer;
@@ -15,6 +16,7 @@
 }
 .navbar_container a button {
   padding: 0.4rem;
+  width: 120px;
 }
 .navbar_container .navbar_content {
   display: flex;
@@ -53,13 +55,14 @@
   }
   .bars {
     display: block;
+    color: #fff;
   }
   .navlinks {
     display: none !important;
   }
   .mobile-navlinks {
     background-color: #e01919;
-    height: 100vh;
+    /* height: 100vh; */
     display: grid;
     grid-column: 4/5;
     align-items: center;
