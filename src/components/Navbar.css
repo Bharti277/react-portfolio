@@ -10,6 +10,8 @@
   cursor: pointer;
   background-color: rgb(188, 149, 86);
   border-radius: 4px;
+  font-family: monospace;
+  font-weight: bold;
 }
 .navbar_container a button {
   padding: 0.4rem;
