@@ -8,7 +8,6 @@ function ResponsiveAppBar() {
   const [showMediaIcons, setShowIcons] = useState(false);
   const showMediaIconsHandler = () => {
     setShowIcons(!showMediaIcons);
-    console.log("dkljdkdkddd");
   };
   return (
     <div className="navbar_container">
