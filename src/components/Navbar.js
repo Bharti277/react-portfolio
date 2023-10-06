@@ -31,7 +31,7 @@ function ResponsiveAppBar() {
         </NavLink>
       </div>
       <div className="bars">
-        <a onClick={showMediaIconsHandler}>
+        <a href="#" onClick={showMediaIconsHandler}>
           <DehazeIcon />
         </a>
       </div>
