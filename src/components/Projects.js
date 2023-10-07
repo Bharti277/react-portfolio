@@ -4,17 +4,11 @@ import Project from "./Project.js";
 
 const Projects = () => {
   return (
-    <div
-      className="container-fluid bg-light p-5 min-vh-100"
-      style={{ paddingTop: "8rem" }}
-    >
+    <div className="" style={{ paddingTop: "8rem" }}>
       <div className="row">
         {projectsData.map((project) => {
           return (
-            <div
-              className="col-12 d-flex justify-content-center"
-              key={project.id}
-            >
+            <div className="" key={project.id}>
               <Project
                 id={project.id}
                 image={project.img}
