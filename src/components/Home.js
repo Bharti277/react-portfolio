@@ -7,6 +7,10 @@ import moment from "moment";
 const Home = () => {
   const date = moment().format("MMMM Do YYYY, h:mm:ss a");
   console.log(date);
+  let arr = [1, 2, 3, 4];
+  let newArray = arr.filter((num) => num % 2);
+  console.log(arr, "arr");
+  console.log(newArray, "newArray");
   return (
     <section className="home_container">
       <div className="home_content">
