@@ -62,7 +62,6 @@
   }
   .mobile-navlinks {
     background-color: #e01919;
-    /* height: 100vh; */
     display: grid;
     grid-column: 4/5;
     align-items: center;
