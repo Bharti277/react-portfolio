@@ -57,11 +57,14 @@
     display: block;
     color: #fff;
   }
+  .bars a {
+    color: #fff;
+  }
   .navlinks {
     display: none !important;
   }
   .mobile-navlinks {
-    background-color: #e01919;
+    background-color: #5d36ea;
     display: grid;
     grid-column: 4/5;
     align-items: center;
