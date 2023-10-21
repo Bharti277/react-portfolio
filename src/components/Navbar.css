@@ -45,6 +45,7 @@
   .navbar_container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .navbar_container .navlinks {
     display: flex;
@@ -73,5 +74,12 @@
     position: relative;
     justify-content: center;
     z-index: 1000;
+  }
+}
+@media only screen and (max-width: 714px) {
+  .home_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
   }
 }
