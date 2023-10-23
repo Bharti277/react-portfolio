@@ -6,6 +6,7 @@ import { useState } from "react";
 
 function ResponsiveAppBar() {
   const [showMediaIcons, setShowIcons] = useState(false);
+  console.log("show");
   const showMediaIconsHandler = () => {
     setShowIcons(!showMediaIcons);
   };
