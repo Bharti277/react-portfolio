@@ -6,13 +6,15 @@
   padding: 1rem;
   z-index: 1000;
   justify-content: space-between;
+  align-items: center;
 }
 .navbar_container .logo .btn {
   cursor: pointer;
-  background-color: rgb(15, 142, 165);
+  background-color: rgb(197, 221, 225);
   border-radius: 4px;
   font-family: monospace;
   font-weight: bold;
+  border: 0;
 }
 .navbar_container a button {
   padding: 0.4rem;
