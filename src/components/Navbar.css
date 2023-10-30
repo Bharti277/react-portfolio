@@ -47,7 +47,6 @@
   .navbar_container {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
   }
   .navbar_container .navlinks {
     display: flex;
