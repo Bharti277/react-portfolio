@@ -27,11 +27,11 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="container fixed top-0 left-0 right-0 h-16 px-4 mx-auto shadow-md md:px-20 max-w-screen-2xl bg-white">
+    <div className="container fixed top-0 left-0 right-0 h-16 px-4 mx-auto bg-white shadow-md md:px-20 max-w-screen-2xl">
       <div className="flex items-center justify-between h-16 mx-auto">
         <div>
           <img src="" alt="" />
-          <h1>Deependra</h1>
+          <h1 className="text-4xl font-bold font-signature">Deependra</h1>
           <p>Web Developer</p>
         </div>
         {/* Desktop navbar */}
