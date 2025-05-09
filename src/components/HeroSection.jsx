@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="mx-auto text-lg opacity-0 md:text-xl text-muted-foreground max-2-2xl animate-fade-in-delay-3">
-            I have 4+ years of hands-on experience in web development and My
+            I have 5+ years of hands-on experience in web development and My
             motivation to learn different technologies and algorithms drives me.
             I love the challenges of a steep learning curve, which makes me a
             better learner. I strongly desire to learn different technologies,
