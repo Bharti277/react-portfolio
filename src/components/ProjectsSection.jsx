@@ -3,32 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Live Weather App",
+    description: "A beautiful live weather app using React and Tailwind.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS", "OpenWeatherAPI"],
+    demoUrl: "https://react-weather-app-live.vercel.app",
+    githubUrl: "https://github.com/Bharti277/weather-app",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "E-commerce Platform",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Full-featured e-commerce platform with user authentication and payment processing.",
+    // "Full-featured e-commerce platform with user authentication and payment processing.",
+    // "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["TypeScript", "Redux", "Next.js"],
+    demoUrl: "https://redux-ecommerce-nu.vercel.app",
+    githubUrl: "https://github.com/Bharti277/redux-ecommerce",
   },
   {
     id: 3,
     title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+    description: "Build React app with styled-components.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React.JS", "TypeScript", "Styled-Components"],
+    demoUrl: "https://react-styled-component-project.netlify.app",
+    githubUrl: "https://github.com/Bharti277/react-styled-component-project",
   },
 ];
 
