@@ -5,7 +5,7 @@ import {
   MapPin,
   Phone,
   Send,
-  Twitch,
+  MessageSquareMore,
   Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -73,7 +73,7 @@ export const ContactSection = () => {
                     href="tel:+11234567890"
                     className="transition-colors text-muted-foreground hover:text-primary"
                   >
-                    +91 (123) 456-7890
+                    +91 8318524198
                   </a>
                 </div>
               </div>
@@ -93,7 +93,10 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="mb-4 font-medium"> Connect With Me</h4>
               <div className="flex justify-center space-x-4">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/deepubharti"
+                  target="_blank"
+                >
                   <Linkedin />
                 </a>
                 <a href="#" target="_blank">
@@ -103,7 +106,7 @@ export const ContactSection = () => {
                   <Instagram />
                 </a>
                 <a href="#" target="_blank">
-                  <Twitch />
+                  <MessageSquareMore />
                 </a>
               </div>
             </div>

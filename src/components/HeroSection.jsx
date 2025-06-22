@@ -21,15 +21,16 @@ export const HeroSection = () => {
           </h1>
 
           <p className="mx-auto text-lg opacity-0 md:text-xl text-muted-foreground max-2-2xl animate-fade-in-delay-3">
-            I have 5+ years of hands-on experience in web development and My
-            motivation to learn different technologies and algorithms drives me.
-            I love the challenges of a steep learning curve, which makes me a
-            better learner. I strongly desire to learn different technologies,
-            which would enable me to become a better developer. I believe in the
-            fast execution culture while building things from scratch. I believe
-            in startups where the learning process is very high and focuses on
-            improving new ideas. I build interfaces that are both beautiful and
-            functional.
+            I have over 5 years of hands-on experience in web development. My
+            strong motivation to learn new technologies and algorithms drives me
+            forward. I thrive on the challenges of a steep learning curve, which
+            continually helps me grow as a developer. I&apos;m passionate about
+            exploring different technologies to enhance my skills and build
+            better solutions. I believe in a fast execution culture and enjoy
+            creating things from scratch. I&apos;m especially drawn to startups,
+            where the learning opportunities are immense and the focus is on
+            innovation. I strive to build interfaces that are not only visually
+            appealing but also highly functional.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
